@@ -1,0 +1,128 @@
+Course Project
+==============
+The data was collected from [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) then unzipped and processed by run_analysis.R.
+
+Data set represents the activity performed by the subject wearing Smasung smartphone.
+Data Set include Following files
+--------------------------------
+- 'README.txt'
+
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+
+- 'features.txt': List of all features.
+
+- 'activity_labels.txt': Links the class labels with their activity name.
+
+- 'train/X_train.txt': Training set.
+
+- 'train/y_train.txt': Training labels.
+
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
+
+Code Book
+=========
+Following columns are produced in the output after running run_analysis.R
+
+Naming convention on the variables collected
+--------------------------------------------
+-  Prefix 't' indicates time domain
+-  PrefiX 'f' indicated frequency domain
+-  'Body' indicates Body acceleration signal
+-  'Gravity' indicates Gravity acceleration signal
+-  'AccJerk' indicates that featre came from acceleromoter to obtain Jerk signal
+-  'GyroJerk' indicates that feature came from Gyrometer to obtain Jerk signal
+-  Suffix of 'X' or 'Y' or 'Z' indicates axial sifnal in X or Y or Z direction
+-  'mean' - Mean value
+-  'std' - Standard Deviation
+
+
+subject   - 	Subject participated in test
+activity  -     Activity performed by the subject
+tBodyAccmeanX  
+tBodyAccmeanY 
+tBodyAccmeanZ 
+tBodyAccstdX 
+tBodyAccstdY 
+tBodyAccstdZ 
+tGravityAccmeanX 
+tGravityAccmeanY 
+tGravityAccmeanZ 
+tGravityAccstdX 
+tGravityAccstdY 
+tGravityAccstdZ 
+tBodyAccJerkmeanX 
+tBodyAccJerkmeanY 
+tBodyAccJerkmeanZ 
+tBodyAccJerkstdX 
+tBodyAccJerkstdY 
+tBodyAccJerkstdZ 
+tBodyGyromeanX 
+tBodyGyromeanY 
+tBodyGyromeanZ 
+tBodyGyrostdX 
+tBodyGyrostdY 
+tBodyGyrostdZ 
+tBodyGyroJerkmeanX 
+tBodyGyroJerkmeanY 
+tBodyGyroJerkmeanZ 
+tBodyGyroJerkstdX 
+tBodyGyroJerkstdY 
+tBodyGyroJerkstdZ 
+tBodyAccMagmean 
+tBodyAccMagstd 
+tGravityAccMagmean 
+tGravityAccMagstd 
+tBodyAccJerkMagmean 
+tBodyAccJerkMagstd 
+tBodyGyroMagmean 
+tBodyGyroMagstd 
+tBodyGyroJerkMagmean 
+tBodyGyroJerkMagstd 
+fBodyAccmeanX 
+fBodyAccmeanY 
+fBodyAccmeanZ 
+fBodyAccstdX 
+fBodyAccstdY 
+fBodyAccstdZ 
+fBodyAccmeanFreqX 
+fBodyAccmeanFreqY 
+fBodyAccmeanFreqZ 
+fBodyAccJerkmeanX 
+fBodyAccJerkmeanY 
+fBodyAccJerkmeanZ 
+fBodyAccJerkstdX 
+fBodyAccJerkstdY 
+fBodyAccJerkstdZ 
+fBodyAccJerkmeanFreqX 
+fBodyAccJerkmeanFreqY 
+fBodyAccJerkmeanFreqZ 
+fBodyGyromeanX 
+fBodyGyromeanY 
+fBodyGyromeanZ 
+fBodyGyrostdX 
+fBodyGyrostdY 
+fBodyGyrostdZ 
+fBodyGyromeanFreqX 
+fBodyGyromeanFreqY 
+fBodyGyromeanFreqZ 
+fBodyAccMagmean 
+fBodyAccMagstd 
+fBodyAccMagmeanFreq 
+fBodyBodyAccJerkMagmean 
+fBodyBodyAccJerkMagstd 
+fBodyBodyAccJerkMagmeanFreq 
+fBodyBodyGyroMagmean 
+fBodyBodyGyroMagstd 
+fBodyBodyGyroMagmeanFreq 
+fBodyBodyGyroJerkMagmean 
+fBodyBodyGyroJerkMagstd 
+fBodyBodyGyroJerkMagmeanFreq 
+angletBodyAccMeangravity 
+angletBodyAccJerkMeangravityMean 
+angletBodyGyroMeangravityMean 
+angletBodyGyroJerkMeangravityMean 
+angleXgravityMean 
+angleYgravityMean 
+angleZgravityMean
